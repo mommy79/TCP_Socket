@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a89ac745-42cd-4f9a-8144-2731d6cffb06" name="Default" comment="" />
+    <list default="true" id="a89ac745-42cd-4f9a-8144-2731d6cffb06" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +21,8 @@
       <file leaf-file-name="Client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -27,11 +30,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
+                <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -68,9 +90,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SignUp.py" />
         <option value="$PROJECT_DIR$/SignUP.py" />
-        <option value="$PROJECT_DIR$/Client.py" />
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Server.py" />
+        <option value="$PROJECT_DIR$/Client.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -95,8 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -111,6 +132,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,9 +315,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24860558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24780877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -325,6 +348,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Client.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/enum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7725">
+          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
@@ -337,7 +395,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,13 +413,6 @@
         <state relative-caret-position="7770">
           <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -391,16 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/enum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7725">
@@ -409,11 +459,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py" />
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
+            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
           <folding />
         </state>
       </provider>
