@@ -1,7 +1,7 @@
 from socket import *
 from select import *
 from Login import *
-
+#git test
 class Server:
     # Server의 HOST와 PORT를 담은 변수
     HOST = '127.0.0.1'
