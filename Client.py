@@ -2,9 +2,9 @@ from socket import *
 from select import *
 
 class Client:
-    __HOST = '127.0.0.1'
-    __PORT = 10003
-    __ADDR = (__HOST, __PORT)
+    __SERVER_IP = '127.0.0.1'
+    __SERVER_PORT = 10005
+    __ADDR = (__SERVER_IP, __SERVER_PORT)
     __BUFSIZE = 1024
 
     def __init__(self):
@@ -19,7 +19,6 @@ class Client:
         else:
             self.Connection_Req()
 
-    # TODO: 연결요청 메소드
     def Connection_Req(self):
         self.clientSocket.connect(Client.__ADDR)
         while True:
@@ -35,19 +34,12 @@ class Client:
                     recv_data = self.clientSocket.recv(Client.__BUFSIZE)
                     if recv_data:
                         recv_msg = self.decode(recv_data)
-                        print(type(recv_msg))
+
                         if recv_msg == 'ACK':
-                            print(recv_msg)
-                    else:
-                        print("Connection Success!")
-                        self.Login_Req()
+                            print("Connection Success!")
 
-
-    # TODO: 로그인요청 메소드
     def Login_Req(self):
         print("test")
-
-    # TODO: Server접속의 성공여부를 알려주는 메소드
 
     def ACK(self):
         message = "ACK"
