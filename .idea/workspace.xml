@@ -35,16 +35,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
-                <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,18 +43,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="enum.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/enum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7725">
-              <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
+            <state relative-caret-position="597">
+              <caret line="266" column="52" lean-forward="false" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -314,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1276" height="774" extended-state="6" />
+    <frame x="4" y="22" width="1276" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24780877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -360,16 +341,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -395,16 +367,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -467,23 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1502936423000" expanded="true" signature="76:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="287:312" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="373:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="599:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="748:808" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="827:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="954:1297" ph="..." />
-            <marker date="1502936423000" expanded="true" signature="999:1238" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -494,10 +440,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="103" column="4" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        <state relative-caret-position="597">
+          <caret line="266" column="52" lean-forward="false" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
           <folding />
         </state>
       </provider>
