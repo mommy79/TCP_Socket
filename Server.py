@@ -34,7 +34,25 @@ class Server:
                         for sock_in_list in Server.__info_list:
                             if sock_in_list != self.s and sock_in_list != sock:
                                 print("New Client Join")
+
                     else:
-                        continue
+                        data = sock.recv(1024)
+                        data = self.check_data(data)
+                        if data:
+                            print("data is come", data)
+                            for sock_in_list in Server.__info_list:
+                                if sock_in_list != self.s and sock_in_list != sock:
+                                    try:
+                                        print("send data", data)
+                                        sock_in_list.send(data.encode())
+                                    except Exception as e:
+                                        print(e)
+                                        sock_in_list.close()
+                                        Server.__info_list.remove(sock_in_list)
+                                        continue
+                            sock.send(data.encode())
+                        else:
+                            sock.close()
+                            Server.__info_list.remove(sock)
 
 server = Server()
