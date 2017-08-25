@@ -1,59 +1,90 @@
 from socket import *
-from select import *
+from select import select
+import Server_Info
+import sys
+
+SERVER_IP = Server_Info.SERVER_IP
+SERVER_PORT = Server_Info.SERVER_PORT
+# ver1
+
 
 class Client:
-    __SERVER_IP = '127.0.0.1'
-    __SERVER_PORT = 10005
-    __ADDR = (__SERVER_IP, __SERVER_PORT)
-    __BUFSIZE = 1024
 
     def __init__(self):
+        self.id = self.pw = ""
+        self.data = {}
+        self.choice = 0
+        self.client_socket = socket(AF_INET, SOCK_STREAM)
         try:
-            self.clientSocket = socket(AF_INET, SOCK_STREAM)
-            self.__client_info = [self.clientSocket]
+            self.client_socket.connect((SERVER_IP, SERVER_PORT))
+        except Exception as e:
+            print("서버에 접속하지 못했습니다.")
+            sys.exit()
+        print("서버에 접속했습니다")
+        self.login()
 
-        except (KeyboardInterrupt, BrokenPipeError):
-            self.clientSocket.close()
-            exit()
-
+    def login(self):
+        print("*--------------*")
+        print("1.login")
+        print("2.SignUp")
+        print("*--------------*")
+        self.choice = input("> ")
+        print(self.choice)
+        if self.choice == '1':
+            print("*--------------*")
+            self.id = input("id > ")
+            self.pw = input("pw > ")
+            print("*--------------*")
+        elif self.choice == '2':
+            print("*----signup----*")
+            self.id = input("id > ")
+            self.pw = input("pw > ")
+            print("*--------------*")
         else:
-            self.Connection_Req()
+            print("wrong number")
+            self.login()
+        self.data = {"id": self.id, "pw": self.pw}
+        self.send_data()
+    def chk_data(self, data):
+        data = data.decode()
+        data_split = data.split()
+        if str("<"+self.data["id"]+">") not in data_split:
+            print(data)
 
-    def Connection_Req(self):
-        self.clientSocket.connect(Client.__ADDR)
+    def send_data(self):
         while True:
             try:
-                read_socket, write_socket, error_socket = select(self.__client_info,[],[],1)
+                connection_list = [sys.stdin, self.client_socket]
+                input_ready, write_ready, except_ready = select(connection_list, [], [], 10)
+                for sock in input_ready:
+                    if sock == self.client_socket:
+                        data = sock.recv(1024)
+                        if not data:
+                            print("연결이...?")
+                            self.prompt()
+                        elif data == "SignUp Success":
+                            print(data)
+                            self.prompt()
+                        else:
+                            self.chk_data(data)
+                            self.prompt()
+                            if self.data and self.choice == '1':
+                                message = "Login ID:{0} PW:{1}".format(self.data["id"], self.data["pw"]).encode()
+                                self.client_socket.send(message)
+                                self.choice = 0
+                            elif self.data and self.choice == '2':
+                                message = "SignUp ID:{0} PW:{1}".format(self.data["id"], self.data["pw"]).encode()
+                                self.client_socket.send(message)
+                                self.choice = 0
+                    else:
+                        message = sys.stdin.readline()
+                        message = "<" + self.data["id"] + "> " + message
+                        self.client_socket.send(message.encode())
+            except KeyboardInterrupt:
+                self.client_socket.close()
 
-            except (KeyboardInterrupt, BrokenPipeError):
-                self.clientSocket.close()
-                exit()
+    def prompt(self):
+        sys.stdout.write('<나> ')
+        sys.stdout.flush()
 
-            else:
-                if read_socket:
-                    recv_data = self.clientSocket.recv(Client.__BUFSIZE)
-                    if recv_data:
-                        recv_msg = self.decode(recv_data)
-
-                        if recv_msg == 'ACK':
-                            print("Connection Success!")
-
-    def Login_Req(self):
-        print("test")
-
-    def ACK(self):
-        message = "ACK"
-        send_data = self.encode(message)
-        self.clientSocket.send(send_data)
-
-    def encode(self, send_msg):
-        send_data = bytes(send_msg, 'utf-8')
-        return send_data
-
-    def decode(self, recv_data):
-        recv_msg = str(recv_data, 'utf-8')
-        return recv_msg
-
-
-c = Client()
-
+client = Client()
